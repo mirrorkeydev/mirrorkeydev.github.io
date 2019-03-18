@@ -1,0 +1,76 @@
+body, html{
+    height: 100%;
+    background-color: #ffffff;
+    font-family: 'Roboto Slab', sans-serif;
+    font-weight: 300;
+    overflow: hidden;
+}
+
+a:link, a:visited, a:hover, a:active {
+    text-decoration: none;
+}
+
+nav{
+    list-style-type: none;
+    margin: none;
+    padding: none;
+}
+
+li{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+h1, a{
+    color: black;
+}
+
+.container{
+    height: 100%;
+    display: grid;
+    grid-template-columns: auto [col-start] 10px [col-middle-start] minmax(400px, 800px) [col-middle-end] 10px [col-end] auto;
+    grid-template-rows: 45% [row-middle-start] 1fr [row-middle-mid] 1fr [row-middle-end] 45%;
+    justify-items: center;
+    align-items: center;
+}
+
+.name{
+    grid-column: col-middle-start / col-middle-end;
+    grid-row: row-middle-start / row-middle-mid;
+}
+
+.navbar{
+    grid-column: col-middle-start / col-middle-end;
+    grid-row: row-middle-mid / row-middle-end;
+    display: flex;
+    flex-direction: row;
+}
+
+.color1{
+    height: 100%;
+    width: 100%;
+    background-color: #f47442;
+    grid-column: col-start / col-middle-start;
+    grid-row: row-middle-start / row-middle-end;
+}
+
+.color2{
+    height: 100%;
+    width: 100%;
+    background-color: #f47442;
+    grid-column: col-middle-end / col-end;
+    grid-row: row-middle-start / row-middle-end;
+}
+
+#particles-js{
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+.particles-js-canvas-el{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+}
