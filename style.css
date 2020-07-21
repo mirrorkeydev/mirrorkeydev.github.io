@@ -1,0 +1,567 @@
+/**
+ ** Global
+ **/
+
+html,
+body {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 500;
+  margin: 0;
+}
+
+a {
+  color: #0f803a;
+  font-family: 'Raleway', sans-serif;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #1c1c1c;
+  text-decoration: underline rgb(195, 195, 195);
+  text-decoration-thickness: 5px;
+}
+
+.centered {
+  margin: auto;
+  text-align: center;
+  width: 100%;
+}
+
+textarea {
+  width: 100%;
+}
+
+input,
+textarea {
+  background-color: #f7f7f7;
+  border: 0;
+  border-radius: 5px;
+  color: gray;
+  margin: 5px 0;
+  padding: 10px;
+}
+
+input:focus,
+textarea:focus {
+  color: #333;
+  outline: none;
+}
+
+input[type=submit] {
+  color: #333;
+}
+
+input[type=submit]:hover {
+  cursor: pointer;
+}
+
+.greyed {
+  color: #bcbcbc;
+}
+
+.blurred {
+  filter: blur(5px);
+  -moz-filter: blur(5px);
+  -ms-filter: blur(5px);
+  -o-filter: blur(5px);
+  -webkit-filter: blur(5px);
+}
+
+select {
+  background-color: #f7f7f7;
+  border: none;
+  color: #333;
+  font-size: 13px;
+  outline: none;
+  padding: 5px;
+}
+
+label {
+  color: #3c3c3c;
+  font-size: 15px;
+  margin: 0 5px;
+}
+
+/**
+ ** Header and Nav Bar
+ **/
+
+#nav-links {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  margin: 50px 10px 40px 10px;
+  padding: 0 20px 0 20px;
+}
+
+.nav-link {
+  font-size: 20px;
+  line-height: 1.5;
+  padding: 10px;
+  text-decoration: none;
+}
+
+#header {
+  color: #1c1c1c;
+  font-family: 'Roboto Mono', monospace;
+  font-size: 40px;
+  font-weight: 600;
+  flex: 1 1 100px;
+  flex-shrink: 3;
+  margin: 10px;
+  text-align: center;
+}
+
+#header-img {
+  border-radius: 50%;
+  margin: 20px;
+  max-height: 150px;
+  max-width: 150px;
+}
+
+#header-container {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0 auto;
+  padding: 40px 0 0 0;
+  width: 60%;
+}
+
+/**
+ ** Body
+ **/
+
+#body-container {
+  margin: 0 auto;
+  margin-top: 30px;
+  width: 100%;
+}
+
+/**
+ ** Preview box
+ **/
+
+/* The text above a preview box */
+.preview-title {
+  color: #313131;
+  font-family: 'Roboto Mono', monospace;
+  font-size: 25px;
+  font-weight: 600;
+  margin: 50px 0 0 15%;
+}
+
+/* The container that constitutes a preview box */
+.preview-container {
+  border-radius: 10px;
+  box-shadow: 0 0 48px -6px rgba(186, 186, 186, 0.7);
+  -moz-box-shadow: 0 0 48px -6px rgba(186, 186, 186, 0.7);
+  -webkit-box-shadow: 0 0 48px -6px rgba(186, 186, 186, 0.7);
+  margin: 20px auto;
+  padding: 30px;
+  width: 70%;
+}
+
+/* Smaller titles within a preview box */
+.preview-subtitle {
+  color: #07692c;
+  font-family: 'Raleway', sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  margin: 0 25px 15px 0;
+  text-align: right;
+}
+
+/* A normal paragraph in a preview box */
+.preview-paragraph {
+  color: #1c1c1c;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 500;
+}
+
+/* The description to the left
+   of an image in a preview box */
+.preview-img-description {
+  line-height: 20px;
+  margin: 0 25px 0 0;
+  text-align: right;
+}
+
+/* The container for all text to the
+   left of an image in a preview box */
+.preview-img-text {
+  flex: 1 1 200px;
+  flex-shrink: 3;
+  max-width: 500px;
+}
+
+/* The image in a preview box */
+.preview-img {
+  margin: 0;
+  max-width: 400px;
+  width: 100%;
+}
+
+/* The top-level container for a
+   text-image combo block */
+.preview-img-w-text {
+  align-content: stretch;
+  display: flex;
+  flex-wrap: wrap-reverse;
+  justify-content: center;
+  overflow: hidden;
+  width: 100%;
+}
+
+/* A grid of icons (e.g. contact) */
+.preview-icons-grid {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  width: min-content;
+}
+
+.preview-img-img {
+  margin: 10px 0;
+}
+
+/*
+ * Footer
+ */
+
+#footer-container {
+  margin: 30px 0 0 0;
+  padding: 20px 0 30px 0;
+}
+
+#footer-text {
+  background-color: white;
+  margin: 0 auto;
+  text-align: center;
+}
+
+/*
+ * Contact preview box
+ */
+
+.icon-link {
+  color: #3a3a3a;
+  margin: 10px;
+}
+
+/*
+ * Textbox
+ */
+
+.textbox {
+  border-radius: 10px;
+  box-shadow: 0 0 48px -6px rgba(186, 186, 186, 0.7);
+  -moz-box-shadow: 0 0 48px -6px rgba(186, 186, 186, 0.7);
+  -webkit-box-shadow: 0 0 48px -6px rgba(186, 186, 186, 0.7);
+  color: #333;
+  font-size: 16px;
+  margin: 20px auto;
+  padding: 30px;
+  width: 70%;
+}
+
+.textbox-container {
+  margin: 40px auto;
+  width: 70%;
+}
+
+.textbox-title {
+  color: #313131;
+  font-family: 'Roboto Mono', monospace;
+  font-size: 25px;
+  font-weight: 600;
+  margin: 50px 0 10px 15%;
+}
+
+/*
+ * Icontitle
+ */
+
+.icontitle-container {
+  align-items: center;
+  display: flex;
+}
+
+.icontitle-icon-container {
+  margin: 10px;
+  width: 40px;
+}
+
+.icontitle-icon {
+  margin: auto;
+  width: min-content;
+}
+
+.icontitle-group {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: auto;
+  width: min-content;
+}
+
+/*
+ * Imagebox
+ */
+
+.imagebox {
+  border-radius: 10px;
+  box-shadow: 0 0 48px -6px rgba(186, 186, 186, 0.7);
+  -moz-box-shadow: 0 0 48px -6px rgba(186, 186, 186, 0.7);
+  -webkit-box-shadow: 0 0 48px -6px rgba(186, 186, 186, 0.7);
+  color: #1a1a1a;
+  margin: 40px;
+  padding: 40px;
+  font-size: 18px;
+  width: 400px;
+}
+
+.imagebox-title {
+  color: #07692c;
+  font-family: 'Raleway', sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.imagebox-subtitle {
+  color: #4a4a4a;
+  font-size: 15px;
+  font-style: italic;
+  margin: 5px 0 0 0;
+}
+
+.imagebox-img {
+  margin: 20px 0 20px 0;
+  width: 100%;
+}
+
+.imagebox-icons-grid {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  width: min-content;
+}
+
+.imagebox-icon {
+  color: #4a4a4a;
+  margin: 20px 10px 0 10px;
+}
+
+.imagebox-collection {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 20px auto;
+  width: 90%;
+}
+
+/*
+ * Commentbox
+ */
+
+.commentbox-container {
+  border-top: 1px solid #d0d0d0;
+  padding: 20px;
+}
+
+.commentbox-author {
+  font-size: 17px;
+  font-weight: 700;
+}
+
+.commentbox-date {
+  font-size: 14px;
+  margin: 2px 0 0 0;
+  font-style: italic;
+}
+
+.commentbox-body {
+  font-size: 17px;
+  margin: 10px 0 0 0;
+}
+
+.commentbox-status {
+  border-radius: 50%;
+  display: inline-block;
+  height: 12px;
+  margin: 0 5px 0 0;
+  width: 12px;
+}
+
+.commentbox-tooltip {
+  display: inline-block;
+  position: relative;
+}
+
+.commentbox-tooltip-text {
+  background-color: #6b6b6b;
+  border-radius: 6px;
+  color: #fff;
+  font-size: 15px;
+  padding: 10px;
+  position: absolute;
+  right: 200%;
+  text-align: center;
+  top: -13px;
+  visibility: hidden;
+  width: 120px;
+  z-index: 1;
+}
+
+.commentbox-tooltip:hover .commentbox-tooltip-text {
+  visibility: visible;
+}
+
+.commentbox-tooltip .commentbox-tooltip-text::after {
+  border-color: transparent transparent transparent #6b6b6b;
+  border-style: solid;
+  border-width: 5px;
+  content: " ";
+  left: 100%;
+  margin-top: -5px;
+  position: absolute;
+  top: 50%;
+}
+
+/*
+ * Modal
+ */
+
+.modal-mask {
+  background-color: white;
+  display: table;
+  height: 100%;
+  left: 0;
+  opacity: 0.6;
+  position: fixed;
+  top: 0;
+  transition: opacity 0.3s ease;
+  width: 100%;
+  z-index: 9998;
+}
+
+.modal-container {
+  background-color: #434343;
+  border-radius: 5px;
+  color: #fff;
+  left: 50%;
+  padding: 30px;
+  position: fixed;
+  top: 37.5%;
+  transform: translate(-50%, 0);
+  width: 30%;
+  z-index: 9998;
+}
+
+.modal-title {
+  text-align: center;
+}
+
+.modal-text {
+  font-style: italic;
+  margin: 0 20px;
+  text-align: center;
+}
+
+.modal-buttons {
+  display: flex;
+  justify-content: center;
+}
+
+.modal-button {
+  background-color: white;
+  border: none;
+  border-radius: 5px;
+  color: #333;
+  cursor: pointer;
+  margin: 20px 20px 0 20px;
+  outline: none;
+  padding: 10px;
+}
+
+.modal-button:hover {
+  background-color: #d2d2d2;
+}
+
+/*
+ * Contact page (contact.js)
+ */
+
+#contact-form {
+  padding: 20px 20px 0 20px;
+}
+
+#num-comments-form {
+  padding: 0 20px 20px 20px;
+  text-align: right;
+}
+
+#error-bar {
+  background-color: #ffdbdb;
+  border-radius: 5px;
+  color: #9a2929;
+  font-size: 16px;
+  margin: 10px 20px;
+  padding: 10px;
+  text-align: center;
+}
+
+#delete-comments-button {
+  background-color: #d3eef3;
+  border: none;
+  border-radius: 5px;
+  color: #2a6f8a;
+  padding: 10px;
+  width: 100%;
+}
+
+#delete-comments-button:hover,
+#delete-comments-button:focus {
+  background-color: #c5e3e8;
+  cursor: pointer;
+  outline: none;
+}
+
+/*
+ * Responsivity (media queries)
+ */
+
+/* Adjustments for large screens (>1700px) */
+@media only screen and (min-width: 1700px) {
+  .preview-title {
+    margin: 50px 0 0 30%;
+  }
+
+  .textbox-title {
+    margin: 50px 0 0 30%;
+  }
+
+  .preview-container {
+    width: 40%;
+  }
+
+  #header-container {
+    width: 40%;
+  }
+
+  .textbox {
+    width: 40%;
+  }
+}
+
+/* Adjustments for small screens (<600px) */
+@media only screen and (max-width: 600px) {
+  .textbox-container {
+    font-size: 15px;
+  }
+
+  #contact-group {
+    font-size: 14px;
+  }
+}

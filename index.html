@@ -1,29 +1,40 @@
 <!DOCTYPE html>
 <html>
+
 <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, minimal-ui">
+
     <title>Melanie Gutzmann</title>
-    <link rel="stylesheet" type="text/css" href="indexstyle.css">
-    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:300,400" rel="stylesheet">
-    <script src="./particles.js"></script>
-    <script type="text/javascript" src="indexscript.js"></script>
+
+    <!--Favicon-->
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon-16x16.png">
+
+    <!--Fonts/Icons-->
+    <script src="https://kit.fontawesome.com/fe9c42a7ba.js" crossorigin="anonymous"></script>
+    <link href='https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Material+Icons' rel="stylesheet">
+
+    <!--Animations-->
+    <script src="https://cdn.jsdelivr.net/npm/animejs@3.2.0/lib/anime.min.js"></script>
+
+    <!--Custom Styles-->
+    <link href="./style.css" type="text/css" rel="stylesheet">
+    
 </head>
 
 <body>
-    <div id="particles-js">
-    <div class = "container">
-        <div class="color1"></div>
-        <div class = "name">
-            <a href= "#"><h1>Melanie Gutzmann</h1></a>
-        </div>
-        <nav class="navbar">
-            <li class="navbar-list"><a href= "#">Projects</a></li>
-            <li class="navbar-list"><a href= "#">Github</a></li>
-            <li class="navbar-list"><a href= "#">Art</a></li>
-            <li class="navbar-list"><a href= "#">About</a></li>
-            <li class="navbar-list"><a href= "#">Contact</a></li>
-        </nav>
-        <div class="color2"></div>
-    </div>
-</div>
+
+    <!--The root of all Vue components-->
+    <div id="app"></div>
+
+    <!--CDN imports-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vue-router/3.0.2/vue-router.js"></script>
+
+    <!--Entry point that binds Vue to the div above-->
+    <script type="module" src="vueapp.js"></script>
+
 </body>
+
 </html>
