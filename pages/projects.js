@@ -9,7 +9,7 @@ const ProjectsTemplate =
   <h2 class="centered">Projects</h2>
 
   <div class="imagebox-collection">
-    <ImageBox title="Sprout (TBD)" link="#"
+    <ImageBox title="Sprout (2020)" link="/Sprout"
     subtitle="Personal project" img="./assets/sprout.png">
       A dashboard that shows real-time statistics about my plants and their environment.
       Offers soil moisture charts for each plant connected to Sprout and
