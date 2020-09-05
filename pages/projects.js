@@ -23,6 +23,19 @@ const ProjectsTemplate =
       </div>
     </ImageBox>
 
+    <ImageBox title="noms (2020)" link="https://github.com/googleinterns/noms"
+    subtitle="Google STEP Capstone Project" img="./assets/noms.png">
+    A full-stack web app connecting students and college organizations to battle food
+    insecurity and food waste. noms allows college organizations to post the locations
+    of free food on campus and for students to view and receive notifications for these posts.
+    <div class="imagebox-icons-grid">
+      <i class="fab fa-js fa-2x imagebox-icon"></i>
+      <i class="fab fa-java fa-2x imagebox-icon"></i>
+      <i class="fab fa-google fa-2x imagebox-icon"></i>
+      <i class="fab fa-figma fa-2x imagebox-icon"></i>
+    </div>
+    </ImageBox>
+
     <ImageBox title="MathLang (2020)" link="https://github.com/mirrorkeydev/MathLang"
     subtitle="Programming Language Fundamentals Final Project" img="./assets/mathlang.png">
       A stack-based language that performs basic mathematic/logic operations. 
