@@ -14,9 +14,9 @@ const ContactTemplate =
         </IconTitle>
       </a>
 
-      <a class="icon-link" href="https://www.linkedin.com/in/mgutzmann">
+      <a class="icon-link" href="https://www.linkedin.com/in/mirrorkeydev">
         <IconTitle icon="fab fa-linkedin-in fa-2x">
-          linkedin.com/in/mgutzmann
+          linkedin.com/in/mirrorkeydev
         </IconTitle>
       </a>
 
