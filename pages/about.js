@@ -8,7 +8,7 @@ const AboutTemplate =
   <TextBox title="About">
     <br/>
     <p class="centered">
-        Hello! My name is Melanie, and I'm a sophomore at Oregon State University.
+        Hello! My name is Melanie, and I'm a junior at Oregon State University.
     </p>
     <br/>
 
