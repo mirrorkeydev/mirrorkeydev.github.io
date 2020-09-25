@@ -7,7 +7,7 @@ const HomeTemplate =
 `<div id="body-container">
 
   <PreviewBox title="About" url="/about" moreText="read more" class="stagger">
-    Hello! My name is Melanie, and I'm a sophomore at Oregon State University.
+    Hello! My name is Melanie, and I'm a junior at Oregon State University.
   </PreviewBox>
 
   <PreviewBox title="Projects" url="/projects" moreText="see more" class="stagger">
