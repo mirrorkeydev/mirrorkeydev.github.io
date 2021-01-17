@@ -19,7 +19,6 @@ export default function Home() {
 
   useEffect(() => {
     vid.current.oncanplay = () => {
-      console.log("hit!")
       fadein(vid.current);
     };
   })

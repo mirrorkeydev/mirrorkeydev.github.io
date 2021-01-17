@@ -1,0 +1,60 @@
+.projects
+{
+  background-color: white;
+}
+
+.contact-container {
+  color: rgb(129, 129, 129);
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: calc(max(3vh, 20px));
+  line-height: 3rem;
+  padding-top: 15vh;
+  text-align: center;
+}
+
+.contact-container span {
+  color: rgb(49, 49, 49);
+  font-weight: 600;
+}
+
+.contact-container span:first-of-type {
+  text-align:right
+}
+
+a {
+  color: rgb(129, 129, 129);
+  text-decoration: none;
+}
+
+/* Screens > 1000px wide */
+@media screen and (min-width: 1000px) {
+  .contact-container {
+    font-size: 2.5rem;
+    line-height: 4rem;
+    padding-top: 10%;
+    text-align: center;
+  }
+
+  .contact-container span {
+    width: 300px;
+    display: inline-block;
+    text-align: left;
+  }
+}
+
+/* Screens > 2000px wide */
+@media screen and (min-width: 2000px) {
+  .contact-container {
+    font-size: 2.5rem;
+    line-height: 4rem;
+    padding-top: 10%;
+    text-align: center;
+  }
+
+  .contact-container span {
+    width: 300px;
+    display: inline-block;
+    text-align: left;
+  }
+}

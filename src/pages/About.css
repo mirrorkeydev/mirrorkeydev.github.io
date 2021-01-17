@@ -1,0 +1,30 @@
+.about
+{
+  background-color: white;
+}
+
+.about-container {
+  color: rgb(102, 102, 102);
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: calc(max(2vh, 20px));
+  line-height: calc(max(2vh, 1.5rem));
+  margin: 14vw 10vw;
+  text-align: left;
+}
+
+/* Screens > 1000px wide */
+@media screen and (min-width: 1000px) {
+  .about-container {
+    margin: 14vw;
+    line-height: normal;
+  }
+}
+
+/* Screens > 2000px wide */
+@media screen and (min-width: 2000px) {
+  .about-container {
+    margin: 14vw 20vw;
+    line-height: normal;
+  }
+}
