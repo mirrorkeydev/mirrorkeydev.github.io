@@ -168,18 +168,18 @@
     "aspectRatio": 0.84
   },
   {
-    "url": "https://res.cloudinary.com/rainybread/image/upload/h_{{HEIGHT}}/v1610994859/theboy.png",
-    "created": 1610993970000,
-    "date": null,
-    "dominantColor": "#dad2a4",
-    "aspectRatio": 1
-  },
-  {
     "url": "https://res.cloudinary.com/rainybread/image/upload/h_{{HEIGHT}}/v1610997527/scandy.jpg",
     "created": 1610993990000,
     "date": null,
     "dominantColor": "#d7d8d3",
     "aspectRatio": 1.507
+  },
+  {
+    "url": "https://res.cloudinary.com/rainybread/image/upload/h_{{HEIGHT}}/v1610994859/theboy.png",
+    "created": 1610993970000,
+    "date": null,
+    "dominantColor": "#dad2a4",
+    "aspectRatio": 1
   },
   {
     "url": "https://res.cloudinary.com/rainybread/image/upload/h_{{HEIGHT}}/v1610994898/hermine.jpg",
