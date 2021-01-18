@@ -14,7 +14,7 @@ import SecondaryHeader from './components/SecondaryHeader'
 export default function App() {
   return (
     <div id="app">
-      <Router>
+      <Router basename={process.env.PUBLIC_URL}>
       <SecondaryHeader/>
         <Switch>
           <Route path="/about">
