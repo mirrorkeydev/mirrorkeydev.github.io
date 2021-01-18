@@ -4,7 +4,7 @@ import './Home.css';
 import video from "../assets/desktop-background.mp4"
 
 export default function Home() {
-  const vid = useRef(null);
+  const vid = useRef(null)
 
   const fadein = (element) => {
     var op = 0;
@@ -21,11 +21,11 @@ export default function Home() {
     vid.current.oncanplay = () => {
       fadein(vid.current);
     };
-  })
+  }, [])
 
   return (
     <div className="home">
-      <video autoPlay loop muted playsInline id="home-video" ref={vid} className="blur">
+      <video autoPlay loop muted playsInline id="home-video" ref={vid} className="blur" style={{opacity: 0}}>
         <source src={video} type="video/mp4"/>
       </video>
       <nav id="nav-container">
