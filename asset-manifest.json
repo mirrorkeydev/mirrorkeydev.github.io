@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/mirrorkeydev.github.io/static/css/main.b41fce4f.chunk.css",
+    "main.js": "/mirrorkeydev.github.io/static/js/main.c9894aea.chunk.js",
+    "main.js.map": "/mirrorkeydev.github.io/static/js/main.c9894aea.chunk.js.map",
+    "runtime-main.js": "/mirrorkeydev.github.io/static/js/runtime-main.ee07c564.js",
+    "runtime-main.js.map": "/mirrorkeydev.github.io/static/js/runtime-main.ee07c564.js.map",
+    "static/js/2.b374b927.chunk.js": "/mirrorkeydev.github.io/static/js/2.b374b927.chunk.js",
+    "static/js/2.b374b927.chunk.js.map": "/mirrorkeydev.github.io/static/js/2.b374b927.chunk.js.map",
+    "static/js/3.8867ca1a.chunk.js": "/mirrorkeydev.github.io/static/js/3.8867ca1a.chunk.js",
+    "static/js/3.8867ca1a.chunk.js.map": "/mirrorkeydev.github.io/static/js/3.8867ca1a.chunk.js.map",
+    "index.html": "/mirrorkeydev.github.io/index.html",
+    "static/css/main.b41fce4f.chunk.css.map": "/mirrorkeydev.github.io/static/css/main.b41fce4f.chunk.css.map",
+    "static/js/2.b374b927.chunk.js.LICENSE.txt": "/mirrorkeydev.github.io/static/js/2.b374b927.chunk.js.LICENSE.txt",
+    "static/media/appstract.090c14ea.png": "/mirrorkeydev.github.io/static/media/appstract.090c14ea.png",
+    "static/media/back_arrow.92acde32.svg": "/mirrorkeydev.github.io/static/media/back_arrow.92acde32.svg",
+    "static/media/desktop-background.e67d7d71.mp4": "/mirrorkeydev.github.io/static/media/desktop-background.e67d7d71.mp4",
+    "static/media/mathlang.ee28c28c.png": "/mirrorkeydev.github.io/static/media/mathlang.ee28c28c.png",
+    "static/media/noms.0a546a7f.png": "/mirrorkeydev.github.io/static/media/noms.0a546a7f.png",
+    "static/media/sprout2.ae8405a6.png": "/mirrorkeydev.github.io/static/media/sprout2.ae8405a6.png",
+    "static/media/visualizations.f334eb4c.png": "/mirrorkeydev.github.io/static/media/visualizations.f334eb4c.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ee07c564.js",
+    "static/js/2.b374b927.chunk.js",
+    "static/css/main.b41fce4f.chunk.css",
+    "static/js/main.c9894aea.chunk.js"
+  ]
+}
