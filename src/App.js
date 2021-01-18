@@ -7,8 +7,9 @@ import {
 import About from "./pages/About"
 import Projects from "./pages/Projects"
 import Contact from "./pages/Contact"
+import Art from "./pages/Art"
 import Home from "./pages/Home"
-import SecondaryHeader from './components/SecondaryHeader.jsx'
+import SecondaryHeader from './components/SecondaryHeader'
 
 export default function App() {
   return (
@@ -21,6 +22,9 @@ export default function App() {
           </Route>
           <Route path="/projects">
             <Projects />
+          </Route>
+          <Route path="/art">
+            <Art />
           </Route>
           <Route path="/contact">
             <Contact />

@@ -1,5 +1,4 @@
 import './About.css';
-import SecondaryHeader from '../components/SecondaryHeader.jsx'
 
 export default function About() {
   return (

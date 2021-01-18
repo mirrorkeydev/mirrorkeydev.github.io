@@ -31,6 +31,7 @@ export default function Home() {
       <nav id="nav-container">
         <Link to="/about" className="nav-link">about</Link>
         <Link to="/projects" className="nav-link">projects</Link>
+        <Link to="/art" className="nav-link">art</Link>
         <Link to="/contact" className="nav-link">contact</Link>
       </nav>
       <h1 id="title" className="unselectable">melanie<br/>gutzmann</h1>

@@ -22,6 +22,11 @@ export default function SecondaryHeader() {
             projects
           </h1>
         </Link>
+        <Link to="/art">
+          <h1 className={"unselectable header-link " + (location.pathname === '/art' ? 'header-title' : '')}>
+            art
+          </h1>
+        </Link>
         <Link to="/contact">
           <h1 className={"unselectable header-link " + (location.pathname === '/contact' ? 'header-title' : '')}>
             contact

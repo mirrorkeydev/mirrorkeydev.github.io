@@ -1,4 +1,3 @@
-import SecondaryHeader from '../components/SecondaryHeader'
 import './Contact.css'
 
 export default function Contact() {
