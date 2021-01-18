@@ -1,4 +1,3 @@
-import { propTypes } from 'react-pig'
 import './ProjectCard.css'
 
 export default function ProjectCard(props) {
