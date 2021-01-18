@@ -36,7 +36,7 @@ export default function Projects() {
         <ProjectCard
           title="Visualizations"
           subtitle="Personal Project"
-          site="https://github.com/mirrorkeydev/Visualizations"
+          site="https://mirrorkey.dev/Visualizations"
           github="https://github.com/mirrorkeydev/Visualizations"
           img={VizImage}>
             Various visualizations created as exercises in data processing.
