@@ -9,7 +9,8 @@
 @media screen and (min-width: 2000px) {
   .projects-container {
     margin: 0 auto;
-    width: 70%;
+    width: 85%;
     grid-template-columns: 1fr 1fr;
+    align-items: center;
   }
 }
