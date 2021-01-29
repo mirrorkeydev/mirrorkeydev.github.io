@@ -1,5 +1,12 @@
 [
   {
+    "url": "https://res.cloudinary.com/rainybread/image/upload/h_{{HEIGHT}}/v1611948536/potato.png",
+    "created": 1610993465000,
+    "date": null,
+    "dominantColor": "#E86061",
+    "aspectRatio": 0.891
+  },
+  {
     "url": "https://res.cloudinary.com/rainybread/image/upload/h_{{HEIGHT}}/v1610996929/regensburg.jpg",
     "created": 1610993465000,
     "date": null,
