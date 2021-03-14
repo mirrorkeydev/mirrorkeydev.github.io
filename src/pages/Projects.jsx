@@ -30,7 +30,7 @@ export default function Projects() {
           site="https://play.google.com/store/apps/details?id=com.melon.appstract&hl=en_US"
           github="https://github.com/mirrorkeydev/Appstract"
           img={AppstractImage}>
-          An abstract Android icon pack. 250k downloads and 25k active users.
+          An abstract Android icon pack. 350k downloads and 25k active users.
           Built on the open source CandyBar dashboard. Available on the Google Play Store.
         </ProjectCard>
         <ProjectCard
