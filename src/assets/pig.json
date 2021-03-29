@@ -154,6 +154,13 @@
     "aspectRatio": 1.2
   },
   {
+    "url": "https://res.cloudinary.com/rainybread/video/upload/h_{{HEIGHT}}/v1617053753/waves.mp4",
+    "created": 1610993465000,
+    "date": null,
+    "dominantColor": "#859E3D",
+    "aspectRatio": 1.777
+  },
+  {
     "url": "https://res.cloudinary.com/rainybread/image/upload/h_{{HEIGHT}}/v1610994951/crystal.png",
     "created": 1610993655000,
     "date": null,
