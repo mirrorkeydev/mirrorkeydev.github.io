@@ -15,8 +15,7 @@ export default function Projects() {
         <ProjectCard
           title="Sprout"
           subtitle="Personal Project"
-          // Site currently non-functional.
-          //site="https://mirrorkey.dev/Sprout"
+          site="https://mirrorkey.dev/Sprout"
           github="https://github.com/mirrorkeydev/Sprout"
           img={SproutImage}>
           A dashboard that shows real-time statistics about my
