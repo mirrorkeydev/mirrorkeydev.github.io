@@ -5,6 +5,7 @@ import VizImage from '../assets/visualizations.png'
 import NomsImage from '../assets/noms.png'
 import MathLangImage from '../assets/mathlang.png'
 import CatSpotImage from '../assets/catspot.png'
+import VideoStill from '../assets/videostill.png'
 import "./Projects.css"
 import FadeIn from 'react-fade-in';
 
@@ -12,6 +13,15 @@ export default function Projects() {
   return (
     <div>
       <FadeIn className="projects-container">
+      <ProjectCard
+          title="mirrorkey.dev"
+          subtitle="Personal Project"
+          site="https://mirrorkey.dev"
+          github="https://github.com/mirrorkeydev/mirrorkeydev.github.io"
+          img={VideoStill}>
+          The site you're looking at! Once built in Vue, then later ported to React,
+          I built most of this site by hand to display the things I'm proud of.
+        </ProjectCard>
         <ProjectCard
           title="Sprout"
           subtitle="Personal Project"

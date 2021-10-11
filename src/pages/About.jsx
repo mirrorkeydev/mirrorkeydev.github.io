@@ -7,14 +7,13 @@ export default function About() {
     <div class="about-container">
       <FadeIn>
         <p>
-          Hello! My name is Melanie, and I'm a junior at Oregon State University
+          Hello! My name is Melanie, and I'm a senior at Oregon State University
           studying CS.
         </p>
         <p>
-          During the school year, I work at OSU's Center for Applied
-          Systems and Software, writing software for the
-          Oregon Department of Transportation and the Linux Foundation. Last summer
-          I was a STEP intern at Google, and next summer I'll be returning as a SWE intern.
+          During my undergrad, I worked at OSU's Center for Applied
+          Systems and Software.
+          I also spent two summers interning at Google.
         </p>
         <p>
           In my free time, I like taking care of my houseplants, attempting art, mending my
