@@ -13,7 +13,8 @@ export default function About() {
         <p>
           During my undergrad, I worked at OSU's Center for Applied
           Systems and Software.
-          I also spent two summers interning at Google.
+          I also spent two summers interning at Google, and I'll
+          be returning to Google as a full time SWE after I graduate.
         </p>
         <p>
           In my free time, I like taking care of my houseplants, attempting art, mending my
