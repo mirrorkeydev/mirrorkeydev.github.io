@@ -5,6 +5,7 @@
   font-weight: 500;
   padding: 6vw;
   position: fixed;
+  opacity: 0;
   right: 0;
   z-index: 1;
 }
@@ -22,6 +23,7 @@
   margin: 0;
   padding: 10vw;
   position: relative;
+  opacity: 0;
   text-align: left;
 }
 .home
@@ -44,6 +46,7 @@
   left: 0;
   margin: 0;
   object-fit: cover;
+  opacity: 0;
   position: fixed;
   top: 0;
   width: 100vw;
