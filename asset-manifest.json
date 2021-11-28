@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.dda14527.chunk.css",
-    "main.js": "/static/js/main.18b8eb34.chunk.js",
-    "main.js.map": "/static/js/main.18b8eb34.chunk.js.map",
+    "main.js": "/static/js/main.b4afcba8.chunk.js",
+    "main.js.map": "/static/js/main.b4afcba8.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.ffad6453.js",
     "runtime-main.js.map": "/static/js/runtime-main.ffad6453.js.map",
     "static/js/2.4ceb1f09.chunk.js": "/static/js/2.4ceb1f09.chunk.js",
@@ -12,20 +12,21 @@
     "index.html": "/index.html",
     "static/css/main.dda14527.chunk.css.map": "/static/css/main.dda14527.chunk.css.map",
     "static/js/2.4ceb1f09.chunk.js.LICENSE.txt": "/static/js/2.4ceb1f09.chunk.js.LICENSE.txt",
-    "static/media/appstract.090c14ea.png": "/static/media/appstract.090c14ea.png",
+    "static/media/appstract806x600.090c14ea.png": "/static/media/appstract806x600.090c14ea.png",
     "static/media/back_arrow.92acde32.svg": "/static/media/back_arrow.92acde32.svg",
-    "static/media/catspot.f44eadcf.png": "/static/media/catspot.f44eadcf.png",
+    "static/media/catspot806x600.8f4f59e8.png": "/static/media/catspot806x600.8f4f59e8.png",
     "static/media/desktop-background.e67d7d71.mp4": "/static/media/desktop-background.e67d7d71.mp4",
-    "static/media/mathlang.5d4bfe95.png": "/static/media/mathlang.5d4bfe95.png",
-    "static/media/noms.4f709511.png": "/static/media/noms.4f709511.png",
-    "static/media/sprout2.e701be04.png": "/static/media/sprout2.e701be04.png",
-    "static/media/videostill.b0ae5300.png": "/static/media/videostill.b0ae5300.png",
-    "static/media/visualizations.17b8086f.png": "/static/media/visualizations.17b8086f.png"
+    "static/media/inventory806x600.402b9e37.png": "/static/media/inventory806x600.402b9e37.png",
+    "static/media/mathlang806x600.bb92a477.png": "/static/media/mathlang806x600.bb92a477.png",
+    "static/media/noms806x600.67b03c98.png": "/static/media/noms806x600.67b03c98.png",
+    "static/media/sprout806x600.48cf6257.png": "/static/media/sprout806x600.48cf6257.png",
+    "static/media/videostill806x600.424ce75c.png": "/static/media/videostill806x600.424ce75c.png",
+    "static/media/visualizations806x600.b2556bbd.png": "/static/media/visualizations806x600.b2556bbd.png"
   },
   "entrypoints": [
     "static/js/runtime-main.ffad6453.js",
     "static/js/2.4ceb1f09.chunk.js",
     "static/css/main.dda14527.chunk.css",
-    "static/js/main.18b8eb34.chunk.js"
+    "static/js/main.b4afcba8.chunk.js"
   ]
 }
