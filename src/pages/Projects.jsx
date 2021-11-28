@@ -13,7 +13,7 @@ import FadeIn from 'react-fade-in';
 export default function Projects() {
   return (
     <div>
-      <FadeIn className="projects-container">
+      <FadeIn className="projects-container" delay="200">
       <ProjectCard
           title="Personal Inventory CLI"
           subtitle="Personal Project"
