@@ -1,11 +1,12 @@
 import ProjectCard from '../components/ProjectCard'
-import SproutImage from '../assets/sprout2.png'
-import AppstractImage from '../assets/appstract.png'
-import VizImage from '../assets/visualizations.png'
-import NomsImage from '../assets/noms.png'
-import MathLangImage from '../assets/mathlang.png'
-import CatSpotImage from '../assets/catspot.png'
-import VideoStill from '../assets/videostill.png'
+import SproutImage from '../assets/sprout806x600.png'
+import AppstractImage from '../assets/appstract806x600.png'
+import VizImage from '../assets/visualizations806x600.png'
+import NomsImage from '../assets/noms806x600.png'
+import MathLangImage from '../assets/mathlang806x600.png'
+import CatSpotImage from '../assets/catspot806x600.png'
+import VideoStill from '../assets/videostill806x600.png'
+import Inventory from '../assets/inventory806x600.png'
 import "./Projects.css"
 import FadeIn from 'react-fade-in';
 
@@ -13,6 +14,13 @@ export default function Projects() {
   return (
     <div>
       <FadeIn className="projects-container">
+      <ProjectCard
+          title="Personal Inventory CLI"
+          subtitle="Personal Project"
+          github="https://github.com/mirrorkeydev/inventory"
+          img={Inventory}>
+          A Python command-line interface to find, organize, and generally manage personal belongings.
+        </ProjectCard>
       <ProjectCard
           title="mirrorkey.dev"
           subtitle="Personal Project"
