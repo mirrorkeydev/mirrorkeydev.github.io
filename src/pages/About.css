@@ -1,30 +1,75 @@
 .about
 {
+  align-items: start;
   background-color: white;
+  column-gap: 20px;
+  display: grid;
+  grid-template-columns: 50fr 50fr;
+  margin: 20px;
 }
 
-.about-container {
+.left {
+  grid-column: 1;
+}
+
+.links {
+  grid-column: 2;
+}
+
+.links a {
+  text-decoration: underline rgb(211, 211, 211);
+}
+
+.container {
+  border: 1px solid rgb(216, 216, 216);
+  border-radius: 6px;
   color: rgb(102, 102, 102);
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: calc(max(2vh, 20px));
   line-height: calc(max(2vh, 1.5rem));
-  margin: 14vw 10vw;
+  padding: 20px;
   text-align: left;
+  /* TODO: this margin would be better expressed as a defined grid
+           with a column gap */
+  margin-bottom: 20px;
+}
+
+h4 {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+/* Screens < 800px wide */
+@media screen and (max-width: 800px) {
+  .about {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto 40fr;
+    column-gap: 10px;
+    row-gap: 0px;
+  }
+  .bio {
+    grid-column: 1;
+    grid-row: 1;
+  }
+  .links {
+    grid-column: 1;
+    grid-row: 2;
+  }
 }
 
 /* Screens > 1000px wide */
 @media screen and (min-width: 1000px) {
-  .about-container {
-    margin: 14vw;
+  .about {
+    margin: 2vw;
     line-height: normal;
   }
 }
 
 /* Screens > 2000px wide */
 @media screen and (min-width: 2000px) {
-  .about-container {
-    margin: 14vw 20vw;
+  .about {
+    margin: 2vw 5vw;
     line-height: normal;
   }
 }
