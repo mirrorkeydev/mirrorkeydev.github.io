@@ -33,10 +33,22 @@ export default function About() {
             <li>Women in STEM</li>
             <li>Android icon packs</li>
             <li>Go, Python</li>
+            <li>Procedurally generated art</li>
+          </ul>
+        </div>
+        <div class="bio container">
+          <h2>Books</h2>
+          Some reads I really liked:
+          <ul>
+            <Linker
+              url="https://carolinecriadoperez.com/book/invisible-women/"
+              title="Invisible Women"
+              author="Caroline Criado Perez"
+            />
           </ul>
         </div>
       </div>
-  
+      
       <div class="links container">
         <h2>Link Collection</h2>
         <p>
@@ -44,11 +56,6 @@ export default function About() {
         </p>
         <h4>Essays</h4>
         <ul>
-          <Linker
-          url="https://www.lesswrong.com/s/BQBqPowfxjvoee8jw/p/bXuAXCbzw9hsJSuEN"
-          title="The Control Group Is Out Of Control"
-          author="Scott Alexander"
-          />
           <Linker
           url="https://noidea.dog/glue"
           title="Being Glue"
@@ -68,7 +75,7 @@ export default function About() {
           author="CMU"
           />
         </ul>
-        <h4>Videos</h4>
+        <h4>Video</h4>
         <ul>
           <Linker
           url="https://www.youtube.com/watch?v=p4AdFD3E2ok"
@@ -82,7 +89,21 @@ export default function About() {
           author="Defunctland"
           />
         </ul>
-        <h4>Miscellaneous</h4>
+        <h4>Audio</h4>
+        <ul>
+          <Linker
+          url="https://casefilepodcast.com/case-76-silk-road-part-1/"
+          title="Case 76: Silk Road"
+          author="Casefile"
+          notes="Three-part podcast episode detailing the rise and fall of Silk Road, an illicit-goods market in the darknet."
+          />
+          <Linker
+          url="https://darknetdiaries.com/"
+          title="Darknet Diaries"
+          author="Jack Rhysider"
+          />
+        </ul>
+        <h4>Programming</h4>
         <ul>
           <Linker
           url="https://automatetheboringstuff.com/"
@@ -91,9 +112,27 @@ export default function About() {
           notes="A classic introduction to practical scripting for non-programmers."
           />
           <Linker
-          url="https://nb.paulbutler.org/surface-projection/"
-          title="Surface Projection"
-          author="Paul Butler"
+          url="https://tylerxhobbs.com/essays/2020/flow-fields"
+          title="Generative Art: Flow Fields"
+          author="Tyler Hobbs"
+          notes="One of my favorite generative artists and a great essay describing how he approaches flow fields in his work."
+          />
+        </ul>
+        <h4>Art</h4>
+        <ul>
+          <Linker
+          url="https://www.muddycolors.com/2015/04/10-things-about-edges-2/"
+          title="10 Things About Edges"
+          author="Gregory Manchess"
+          />
+          <Linker
+          url="https://drawabox.com/"
+          title="drawabox"
+          />
+          <Linker
+          url="https://books.google.com/books/about/Drawing_the_Head_Hands.html?id=AUNKEAAAQBAJ"
+          title="Drawing The Head & Hands"
+          author="Andrew Loomis"
           />
         </ul>
       </div>
