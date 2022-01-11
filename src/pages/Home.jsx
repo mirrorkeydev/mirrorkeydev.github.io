@@ -25,7 +25,7 @@ export default function Home() {
     };
     // Wait for font load to avoid Flash Of Unstyled Text
     document.fonts.load("12px Rubik").then(() => {fadein(title.current, 5)});
-    document.fonts.load("12px Roboto").then(() => {fadein(nav.current, 5)})
+    document.fonts.load("12px Roboto").then(() => {fadein(nav.current, 5)});
   }, [])
 
   return (
