@@ -1,11 +1,30 @@
 import './About.css';
+import { useEffect, useRef } from 'react';
 import Linker from '../components/Linker'
 
 export default function About() {
+  const itemsRef = useRef([])
+
+  useEffect(() => {
+    async function sleep(ms) {
+      await new Promise(r => setTimeout(r, ms))
+    }
+    async function fadeInContainers() {
+      let sleepAmount = 0
+      for (const container of itemsRef.current) {
+        await sleep(sleepAmount)
+        container.classList.remove('invisible')
+        container.classList.add('fadeIn')
+        sleepAmount += 150
+      }
+    }
+    fadeInContainers()
+  }, [])
+
   return (
-    <div class="about">
-      <div class="left">
-        <div class="bio container">
+    <div className="about">
+      <div className="left">
+        <div className="bio container invisible" ref={el => itemsRef.current.push(el)}>
           <h2>Bio</h2>
           <p>
             Hello! My name is Melanie, and I'm a senior at Oregon State University
@@ -22,7 +41,7 @@ export default function About() {
             possessions, and low-stakes hiking.
           </p>
         </div>
-        <div class="bio container">
+        <div className="interests container invisible" ref={el => itemsRef.current.push(el)}>
           <h2>Interests</h2>
           Talk to me about:
           <ul>
@@ -36,7 +55,7 @@ export default function About() {
             <li>Procedurally generated art</li>
           </ul>
         </div>
-        <div class="bio container">
+        <div className="books container invisible" ref={el => itemsRef.current.push(el)}>
           <h2>Books</h2>
           Some reads I really liked:
           <ul>
@@ -49,7 +68,7 @@ export default function About() {
         </div>
       </div>
       
-      <div class="links container">
+      <div className="links container invisible" ref={el => itemsRef.current.push(el)}>
         <h2>Link Collection</h2>
         <p>
           Things I think are neat from around the web.

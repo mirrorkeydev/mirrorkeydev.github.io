@@ -1,3 +1,8 @@
+.fadeIn {
+  opacity: 1;
+  transition: opacity 0.5s 0.5s;
+}
+
 .about
 {
   align-items: start;
@@ -26,13 +31,17 @@ a {
   color: rgb(102, 102, 102);
   font-family: "Roboto", sans-serif;
   font-weight: 500;
-  font-size: calc(max(2vh, 20px));
-  line-height: calc(max(2vh, 1.5rem));
+  font-size: calc(max(1vw, 20px));
+  line-height: calc(max(1vw, 1.5rem));
   padding: 20px;
   text-align: left;
   /* TODO: this margin would be better expressed as a defined grid
            with a column gap */
   margin-bottom: 20px;
+}
+
+.invisible {
+  opacity: 0;
 }
 
 h4 {
