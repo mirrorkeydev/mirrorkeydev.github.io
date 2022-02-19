@@ -8,8 +8,8 @@ _An aside: `react-pig` was based on [`pig.js`](https://github.com/schlosser/pig.
 ## Technologies/Resources
 - [React.js](https://reactjs.org/) with [Create React App](https://github.com/facebook/create-react-app)
 - [Google Fonts](https://fonts.google.com/), specifically Rubik and Roboto
-- [react-pig](https://github.com/nickmcmillan/react-pig) for the progressive image grid on the `art` page
-- [Cloudinary free tier](https://cloudinary.com/) for hosting/on-demand resizing images
+- [react-pig](https://github.com/nickmcmillan/react-pig) for the progressive image grid on the `art` page. I've forked this dependency to add hover functionality [here](https://github.com/mirrorkeydev/react-pig).
+- [Cloudinary free tier](https://cloudinary.com/) for hosting/on-demand resizing assets
 - [GitHub Pages](https://pages.github.com/) for hosting site itself, with [GitHub Actions](https://github.com/features/actions) managing the deployment
 
 ## Development
