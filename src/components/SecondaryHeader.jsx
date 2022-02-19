@@ -1,5 +1,4 @@
 import { Link } from "react-router-dom";
-import BackArrow from "../assets/back_arrow.svg"
 import { useLocation } from "react-router-dom";
 import './SecondaryHeader.css'
 
@@ -10,7 +9,7 @@ export default function SecondaryHeader() {
     return (
       <div className="secondary-header">
         <Link to="/">
-          <img id="back-arrow" src={BackArrow} alt="" />
+          <h1 id="back-arrow">&lt;</h1>
         </Link>
         <Link to="/about">
           <h1 className={"unselectable header-link " + (location.pathname === '/about' ? 'header-title' : '')}>

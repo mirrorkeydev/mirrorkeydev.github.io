@@ -1,7 +1,7 @@
 import './App.css';
 import {
   BrowserRouter as Router,
-  Switch,
+  Routes,
   Route
 } from "react-router-dom";
 import About from "./pages/About"
@@ -16,23 +16,13 @@ export default function App() {
     <div id="app">
       <Router basename={process.env.PUBLIC_URL}>
       <SecondaryHeader/>
-        <Switch>
-          <Route path="/about">
-            <About />
-          </Route>
-          <Route path="/projects">
-            <Projects />
-          </Route>
-          <Route path="/art">
-            <Art />
-          </Route>
-          <Route path="/contact">
-            <Contact />
-          </Route>
-          <Route path="/">
-            <Home />
-          </Route>
-        </Switch>
+      <Routes>
+        <Route path="/about" element={<About />}/>
+        <Route path="/projects" element={<Projects />}/>
+        <Route path="/art" element={<Art />}/>
+        <Route path="/contact" element={<Contact />}/>
+        <Route path="/" element={<Home />}/>
+      </Routes>
       </Router>
     </div>
   );

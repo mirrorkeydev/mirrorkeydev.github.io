@@ -38,6 +38,7 @@ a:hover {
   display: inline-block;
   height: 3vw;
   padding-right: 1vw;
+  color: rgb(202, 202, 202);
 }
 
 @-webkit-keyframes GradientShift {
