@@ -1,6 +1,7 @@
 [
   {
     "url": "https://res.cloudinary.com/rainybread/image/upload/h_{{HEIGHT}}/v1643662549/Juggles_Juggles_xoh5en.jpg",
+    "secondaryUrl": "http://res.cloudinary.com/rainybread/image/upload/h_{{HEIGHT}}/v1645254290/Juggles_Juggles_lbqqer.gif",
     "created": 1610993465000,
     "date": null,
     "dominantColor": "#1D0627",
@@ -8,6 +9,7 @@
   },
   {
     "url": "https://res.cloudinary.com/rainybread/image/upload/h_{{HEIGHT}}/v1643662567/Glum-Neighborhood_zga8vq.jpg",
+    "secondaryUrl": "http://res.cloudinary.com/rainybread/image/upload/h_{{HEIGHT}}/v1645248451/glumneighborhood.gif",
     "created": 1610993465000,
     "date": null,
     "dominantColor": "#3C7069",
@@ -15,6 +17,7 @@
   },
   {
     "url": "https://res.cloudinary.com/rainybread/image/upload/h_{{HEIGHT}}/v1643662558/zebedeush_whkuc7.jpg",
+    "secondaryUrl": "http://res.cloudinary.com/rainybread/image/upload/h_{{HEIGHT}}/v1645252367/zebedeush_qptpde.gif",
     "created": 1610993465000,
     "date": null,
     "dominantColor": "#151515",
@@ -22,6 +25,7 @@
   },
   {
     "url": "https://res.cloudinary.com/rainybread/image/upload/h_{{HEIGHT}}/v1641859466/bleh_uikdlx.jpg",
+    "secondaryUrl": "http://res.cloudinary.com/rainybread/image/upload/h_{{HEIGHT}}/v1645253169/bleh_hujf1s.gif",
     "created": 1610993465000,
     "date": null,
     "dominantColor": "#29322f",
@@ -29,6 +33,7 @@
   },
   {
     "url": "https://res.cloudinary.com/rainybread/image/upload/h_{{HEIGHT}}/v1636565688/aiyana_qohnlb.png",
+    "secondaryUrl": "https://res.cloudinary.com/rainybread/image/upload/h_{{HEIGHT}}/v1645253672/aiyana_buhefy.gif",
     "created": 1610993465000,
     "date": null,
     "dominantColor": "#870931",
@@ -36,6 +41,7 @@
   },
   {
     "url": "https://res.cloudinary.com/rainybread/image/upload/h_{{HEIGHT}}/v1634169540/objection.png",
+    "secondaryUrl": "https://res.cloudinary.com/rainybread/image/upload/h_{{HEIGHT}}/v1645253411/objection_aonjay.gif",
     "created": 1610993465000,
     "date": null,
     "dominantColor": "#053b32",
@@ -43,6 +49,7 @@
   },
   {
     "url": "https://res.cloudinary.com/rainybread/image/upload/h_{{HEIGHT}}/v1636565694/lincolncity_vzni1c.png",
+    "secondaryUrl": "https://res.cloudinary.com/rainybread/image/upload/h_{{HEIGHT}}/v1645253904/lincoln_j4uzbf.gif",
     "created": 1610993465000,
     "date": null,
     "dominantColor": "#69422d",
@@ -50,6 +57,7 @@
   },
   {
     "url": "https://res.cloudinary.com/rainybread/image/upload/h_{{HEIGHT}}/v1636565690/bottle_jtiasr.png",
+    "secondaryUrl": "https://res.cloudinary.com/rainybread/image/upload/h_{{HEIGHT}}/v1645253480/bottle_xvg5nd.gif",
     "created": 1610993465000,
     "date": null,
     "dominantColor": "#db3814",
@@ -57,6 +65,7 @@
   },
   {
     "url": "https://res.cloudinary.com/rainybread/image/upload/h_{{HEIGHT}}/v1636565690/glossy_zoq5gk.png",
+    "secondaryUrl": "https://res.cloudinary.com/rainybread/image/upload/h_{{HEIGHT}}/v1645254482/glossy_mtuhvh.gif",
     "created": 1610993465000,
     "date": null,
     "dominantColor": "#780e27",
@@ -64,6 +73,7 @@
   },
   {
     "url": "https://res.cloudinary.com/rainybread/image/upload/h_{{HEIGHT}}/v1636565695/icelqand_dc4yvm.png",
+    "secondaryUrl": "https://res.cloudinary.com/rainybread/image/upload/h_{{HEIGHT}}/v1645253969/iceland_wwqb7n.gif",
     "created": 1610993465000,
     "date": null,
     "dominantColor": "#1f1c4d",
@@ -71,6 +81,7 @@
   },
   {
     "url": "https://res.cloudinary.com/rainybread/image/upload/h_{{HEIGHT}}/v1636565689/moegana_ld6spl.png",
+    "secondaryUrl": "https://res.cloudinary.com/rainybread/image/upload/h_{{HEIGHT}}/v1645254482/moegana_f8hav1.gif",
     "created": 1610993465000,
     "date": null,
     "dominantColor": "#2b4257",
@@ -78,6 +89,7 @@
   },
   {
     "url": "https://res.cloudinary.com/rainybread/image/upload/h_{{HEIGHT}}/v1636565688/viviane_xvmmwz.png",
+    "secondaryUrl": "https://res.cloudinary.com/rainybread/image/upload/h_{{HEIGHT}}/v1645254631/vivianne_kvikol.gif",
     "created": 1610993465000,
     "date": null,
     "dominantColor": "#ebb6ab",
@@ -85,6 +97,7 @@
   },
   {
     "url": "https://res.cloudinary.com/rainybread/image/upload/h_{{HEIGHT}}/v1636565690/pitcher_az4m9t.png",
+    "secondaryUrl": "https://res.cloudinary.com/rainybread/image/upload/h_{{HEIGHT}}/v1645254733/pitcher_snx1ye.gif",
     "created": 1610993465000,
     "date": null,
     "dominantColor": "#1da6a8",
@@ -92,6 +105,7 @@
   },
   {
     "url": "https://res.cloudinary.com/rainybread/image/upload/h_{{HEIGHT}}/v1634169618/moved.png",
+    "secondaryUrl": "https://res.cloudinary.com/rainybread/image/upload/h_{{HEIGHT}}/v1645257127/prism_xcj8wq.gif",
     "created": 1610993465000,
     "date": null,
     "dominantColor": "#54a6a4",
@@ -99,6 +113,7 @@
   },
   {
     "url": "https://res.cloudinary.com/rainybread/image/upload/h_{{HEIGHT}}/v1634169701/disparate.png",
+    "secondaryUrl": "https://res.cloudinary.com/rainybread/image/upload/h_{{HEIGHT}}/v1645257129/blameless_kkvgw6.gif",
     "created": 1610993465000,
     "date": null,
     "dominantColor": "#580404",
@@ -106,6 +121,7 @@
   },
   {
     "url": "https://res.cloudinary.com/rainybread/image/upload/h_{{HEIGHT}}/v1633983509/ame.png",
+    "secondaryUrl": "https://res.cloudinary.com/rainybread/image/upload/h_{{HEIGHT}}/v1645257261/ame_pvnixe.gif",
     "created": 1610993465000,
     "date": null,
     "dominantColor": "#cfb6e1",
@@ -113,6 +129,7 @@
   },
   {
     "url": "https://res.cloudinary.com/rainybread/image/upload/h_{{HEIGHT}}/v1633983785/jung.png",
+    "secondaryUrl": "https://res.cloudinary.com/rainybread/image/upload/h_{{HEIGHT}}/v1645252371/jung_dtjaxs.gif",
     "created": 1610993465000,
     "date": null,
     "dominantColor": "#78e8ff",
@@ -120,6 +137,7 @@
   },
   {
     "url": "https://res.cloudinary.com/rainybread/image/upload/h_{{HEIGHT}}/v1633983782/mooncoyote.png",
+    "secondaryUrl": "https://res.cloudinary.com/rainybread/image/upload/h_{{HEIGHT}}/v1645252369/mooncoyote_xgqyut.gif",
     "created": 1610993465000,
     "date": null,
     "dominantColor": "#2b4217",
@@ -127,6 +145,7 @@
   },
   {
     "url": "https://res.cloudinary.com/rainybread/image/upload/h_{{HEIGHT}}/v1633983782/sash.png",
+    "secondaryUrl": "https://res.cloudinary.com/rainybread/image/upload/h_{{HEIGHT}}/v1645257140/sash_qxaevw.gif",
     "created": 1610993465000,
     "date": null,
     "dominantColor": "#bdd0af",
@@ -134,6 +153,7 @@
   },
   {
     "url": "https://res.cloudinary.com/rainybread/image/upload/h_{{HEIGHT}}/v1633983779/charcoal.png",
+    "secondaryUrl": "https://res.cloudinary.com/rainybread/image/upload/h_{{HEIGHT}}/v1645258104/charcoal_aog5ur.gif",
     "created": 1610993465000,
     "date": null,
     "dominantColor": "#a6a6a6",
