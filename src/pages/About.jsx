@@ -27,18 +27,17 @@ export default function About() {
         <div className="bio container invisible" ref={el => itemsRef.current.push(el)}>
           <h2>Bio</h2>
           <p>
-            Hello! My name is Melanie, and I'm a senior at Oregon State University
-            studying CS.
+            Hello! My name is Melanie, and I'm a software engineer.
           </p>
           <p>
             During my undergrad, I worked at OSU's Center for Applied
             Systems and Software.
-            I also spent two summers interning at Google, and I'll
-            be returning to Google as a full time SWE after I graduate.
+            I also spent two summers interning at Google, and I
+            returned to Google as a full time SWE after I graduated.
           </p>
           <p>
-            In my free time, I like taking care of my houseplants, attempting art, mending my
-            possessions, and low-stakes hiking.
+            In my free time, I like bouldering, making art, and mending my
+            possessions.
           </p>
         </div>
         <div className="interests container invisible" ref={el => itemsRef.current.push(el)}>
@@ -46,13 +45,9 @@ export default function About() {
           Talk to me about:
           <ul>
             <li>Embroidery, sashiko, and visible mending</li>
-            <li>Houseplants</li>
-            <li>Full stack development and scripting</li>
+            <li>Bouldering</li>
             <li>Digital art and portraiture</li>
             <li>Women in STEM</li>
-            <li>Android icon packs</li>
-            <li>Go, Python</li>
-            <li>Procedurally generated art</li>
           </ul>
         </div>
         <div className="books container invisible" ref={el => itemsRef.current.push(el)}>
